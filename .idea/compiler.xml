@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="SpringBoot-LogInItem" />
+        <module name="BolgItem" />
         <module name="empty_Item" />
         <module name="my-spring-boot" />
       </profile>
@@ -14,6 +15,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="BolgItem" options="-parameters" />
       <module name="SpringBoot-LogInItem" options="-parameters" />
       <module name="empty_Item" options="-parameters" />
       <module name="my-spring-boot" options="-parameters" />
